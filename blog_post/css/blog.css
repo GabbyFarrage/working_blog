@@ -1,0 +1,155 @@
+section {
+  width: 100%;
+  height: 100vh;
+}
+
+/* NORTHSIDE */
+#northside {
+  display: flex;
+  position: relative;
+  padding-top: 60px;
+  background-color: #EFE4E1;
+  height: 100vh; 
+}
+.northside_img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%; 
+  overflow: hidden;
+  z-index: 1;
+}
+.northside_img img {
+  padding-top: 60px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* SEARCHERS */
+#searchers {
+  display: flex;
+  position: relative;
+  height: 100vh;
+  background-color: #EBC402;
+}
+.searchers_img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 1;
+}
+.searchers_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* PLUG */
+#plug {
+  display: flex;
+  position: relative;
+  height: 100vh;
+  background-color: #C03C3A;
+}
+.plug_img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 1;
+}
+.plug_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* HAPPY */
+#happy {
+  display: flex;
+  position: relative;
+  height: 100vh;
+  background-color: #EFE4E1;
+}
+.happy_img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 1;
+}
+.happy_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* SOUNDMERCH */
+#sound {
+  display: flex;
+  position: relative;
+  height: 100vh;
+  background-color: #EBC402;
+}
+.sound_img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 1;
+}
+sound_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* RATHDOWNE */
+#rathe {
+  display: flex;
+  position: relative;
+  height: 100vh;
+  background-color: #C03C3A;
+}
+.rathe_img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 1;
+}
+.rathe_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+    
+  
+  
+
+
+
+  
+
+  
+

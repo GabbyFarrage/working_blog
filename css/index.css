@@ -1,0 +1,91 @@
+
+
+
+
+
+h1 {
+  font-family: 'League Gothic', sans-serif;
+  color: #f8f4f4;
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
+  font-size: 140px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 4%;
+  text-align: left;
+  padding-left: 30px;
+}
+
+h4 {
+  font-family: 'Instrument Sans', sans-serif;
+  width: 900px;
+  color: #ffffff;
+  height: 309.017px;
+  flex-shrink: 0;
+  padding-top: 0px;
+  padding-bottom: 5px;
+  padding-left: 1%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.top {
+background-image: url('../img/stackedvinyl.png');
+width: 1400px;
+height: 750px;
+flex-shrink: 0;
+aspect-ratio: 1423/865;
+}
+.bottom {
+  background-color: #C03C3A; /* pick any color you want */
+  width: 1400px;
+  padding: 32px;
+  color: #111; 
+}
+
+footer {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  height: 60px;
+  flex-shrink: 0;
+  text-align: center;
+  color: #EBC402;
+  background-color:#242424;
+  padding-top: 20px;
+  width: 1400px;
+}
+
+.gif {
+  position: absolute;      
+  bottom: 0;
+  top: 0.2%;              
+  right: -750px;           
+  width: 1550px;           
+  z-index: 1000;
+}
+
+.gif img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+  
+  
+    
+  
+    
+  
+  
+
+
+
+  
+
+  
+
