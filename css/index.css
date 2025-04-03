@@ -12,7 +12,7 @@ body, html {
 }
 
 /* Hero Section */
-.hero {
+.pins {
   position: relative;
   width: 100%;
   height: 120vh;
@@ -24,7 +24,7 @@ body, html {
   z-index: 10;
 }
 
-/* Page Title */
+
 .top {
   max-width: 1400px;
   margin: 0 auto;
@@ -45,7 +45,7 @@ body, html {
   padding-left: 0;
 }
 
-/* Nav Buttons (Pins) */
+
 .nav-button {
   position: absolute;
   display: inline-block;
