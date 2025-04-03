@@ -1,4 +1,4 @@
-/* Reset */
+
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +11,7 @@ body, html {
   overflow-x: hidden;
 }
 
-/* Hero Section */
+
 .pins {
   position: relative;
   width: 100%;
@@ -42,7 +42,7 @@ body, html {
   line-height: normal;
   letter-spacing: 4%;
   text-align: left;
-  padding-left: 0;
+  padding-left: 20px;
 }
 
 
@@ -71,7 +71,7 @@ body, html {
   transform: scale(1.1);
 }
 
-/* Individual Pin Placement */
+
 .northside-pin {
   top: 55%;
   left: -10%;
@@ -110,7 +110,7 @@ body, html {
   height: 435px;
 }
 
-/* Bottom Section */
+
 .bottom {
   position: relative;
   background-color: #C03C3A;
@@ -132,7 +132,7 @@ body, html {
   text-align: left;
 }
 
-/* Footer */
+
 footer {
   font-family: 'Inter', sans-serif;
   font-weight: 700;
@@ -161,6 +161,9 @@ footer {
   width: 100%;
   height: auto;
   display: block;
+  margin-bottom: 0%;
+  right:0%;
+  
 }
 
 
