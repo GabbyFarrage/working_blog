@@ -14,28 +14,6 @@
     <!-- Link to your CSS file -->
     <link rel="stylesheet" href="css/index.css">
 
-    <style>
-      /* Record GIF anchored to bottom-right of full page */
-      body {
-        position: relative; /* Needed to position .gif relative to whole page */
-      }
-
-      .gif {
-        position: absolute;
-        bottom: 0;
-        right: -30vw; /* Adjust to control how far offscreen it spills */
-        width: 85vw;   /* Size of the gif */
-        max-width: none;
-        z-index: 999;
-        pointer-events: none; /* Prevents gif from interfering with clicks */
-      }
-
-      .gif img {
-        width: 100%;
-        height: auto;
-        display: block;
-      }
-    </style>
 </head>
 
 <body>
@@ -87,7 +65,7 @@
     Play old-school....listen better ----→  play old-school....listen better ----→  play old-school....listen better ----→  play old-school....listen better ----→ Play old-school....listen 
   </footer>
 
-  <!-- Floating GIF: positioned at bottom right of page -->
+
   <div class="gif">
     <img src="img/finalrecord.gif" alt="Spinning record">
   </div>
