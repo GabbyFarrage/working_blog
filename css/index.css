@@ -1,67 +1,158 @@
-
-h1 {
-  font-family: 'League Gothic', sans-serif;
-  color: #f8f4f4;
-  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
-  font-size: 140px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: 4%;
-  text-align: left;
-  padding-left: 30px;
-}
-
-h4 {
-  font-family: 'Instrument Sans', sans-serif;
-  width: 800px;
-  color: #ffffff;
-  height: 309.017px;
-  flex-shrink: 0;
-  padding-top: 0px;
-  padding-bottom: 5px;
-  padding-left: 1%;
-}
-
+/* Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.top {
-background-image: url('../img/stackedvinyl.png');
-width: 1400px;
-height: 750px;
-flex-shrink: 0;
-aspect-ratio: 1423/865;
-}
-.bottom {
-  background-color: #C03C3A; /* pick any color you want */
-  width: 1400px;
-  padding: 32px;
-  color: #111; 
+body, html {
+  height: 100%;
+  font-family: 'Instrument Sans', sans-serif;
+  overflow-x: hidden;
 }
 
+/* Hero Section */
+.hero {
+  position: relative;
+  width: 100%;
+  height: 120vh;
+  background-image: url('../img/stackedvinyl.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: visible;
+  z-index: 10;
+}
+
+/* Page Title */
+.top {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0px;
+  text-align: left;
+  position: relative;
+  z-index: 2;
+}
+
+.top h1 {
+  font-family: 'League Gothic', sans-serif;
+  color: #f8f4f4;
+  font-size: 140px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 4%;
+  text-align: left;
+  padding-left: 0;
+}
+
+/* Nav Buttons (Pins) */
+.nav-button {
+  position: absolute;
+  display: inline-block;
+  width: 500px;
+  height: 500px;
+  overflow: hidden;
+  border-radius: 50%;
+  z-index: 1000;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+.nav-button img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  transition: transform 0.2s ease;
+  pointer-events: auto;
+}
+
+.nav-button img:hover {
+  transform: scale(1.1);
+}
+
+/* Individual Pin Placement */
+.northside-pin {
+  top: 55%;
+  left: -10%;
+}
+
+.searchers-pin {
+  top: 35%;
+  left: 10%;
+}
+
+.plug-pin {
+  top: 50%;
+  left: 30%;
+  width: 435px;
+  height: 435px;
+}
+
+.happy-pin {
+  top: 25%;
+  left: 45%;
+  width: 450px;
+  height: 450px;
+}
+
+.sound-pin {
+  top: 15%;
+  left: 70%;
+  width: 435px;
+  height: 435px;
+}
+
+.rathe-pin {
+  top: -10%;
+  left: 80%;
+  width: 435px;
+  height: 435px;
+}
+
+/* Bottom Section */
+.bottom {
+  position: relative;
+  background-color: #C03C3A;
+  color: #ffffff;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 60px 30px;
+  text-align: left;
+  z-index: 3;
+}
+
+.bottom h4 {
+  font-family: 'Instrument Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  max-width: 800px;
+  margin-left: 0;
+  padding-left: 0;
+  text-align: left;
+}
+
+/* Footer */
 footer {
   font-family: 'Inter', sans-serif;
   font-weight: 700;
   height: 60px;
-  flex-shrink: 0;
   text-align: center;
   color: #EBC402;
-  background-color:#242424;
+  background-color: #242424;
   padding-top: 20px;
-  width: 1400px;
+  width: 100%;
 }
 
+/* Record GIF */
 .gif {
-  position: absolute;      
-  bottom: 0;
-  top: 0.2%;              
-  right: -750px;           
-  width: 1550px;           
-  z-index: 1000;
+  position: fixed;         /* Sticks to viewport */
+  bottom: 0;               /* Anchors to bottom */
+  right: 0;                /* Anchors to right edge */
+  width: 40vw;             /* Adjust size */
+  max-width: 600px;
+  z-index: 999;            /* Ensures it's on top */
+  pointer-events: none;    /* Allows clicks to pass through */
 }
 
 .gif img {
@@ -71,17 +162,5 @@ footer {
 }
 
 
-  
-  
-    
-  
-    
-  
-  
 
-
-
-  
-
-  
 

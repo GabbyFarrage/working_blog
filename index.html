@@ -1,5 +1,4 @@
 <!doctype html>
-
 <html lang="en">
 
 <head>
@@ -9,39 +8,89 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans&family=Inter:wght@700&family=League+Gothic&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap" rel="stylesheet">
 
     <!-- Link to your CSS file -->
     <link rel="stylesheet" href="css/index.css">
+
+    <style>
+      /* Record GIF anchored to bottom-right of full page */
+      body {
+        position: relative; /* Needed to position .gif relative to whole page */
+      }
+
+      .gif {
+        position: absolute;
+        bottom: 0;
+        right: -30vw; /* Adjust to control how far offscreen it spills */
+        width: 85vw;   /* Size of the gif */
+        max-width: none;
+        z-index: 999;
+        pointer-events: none; /* Prevents gif from interfering with clicks */
+      }
+
+      .gif img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+    </style>
 </head>
 
-
 <body>
-    <a href="blog_post/blog_post.html">Northside Records</a>
-    <div class="top">
-        <h1>A Tourist's Guide <br> To Melbourne Record Stores</h1>
-    </div>
-   
-    
-    <div class="gif">
-        <img src="img/finalrecord.gif" alt="Spinning record" class="gif-image">
-    </div>
+  <div class="hero">
+      <!-- Vinyl Nav Pins -->
+      <a href="blog_post/blog_post.html#northside" class="nav-button northside-pin">
+        <img src="img/northpin.png" alt="Northside Records">
+      </a>
 
-    <div class="bottom">
+      <a href="blog_post/blog_post.html#searchers" class="nav-button searchers-pin">
+        <img src="img/searcherspin.png" alt="Searchers Records">
+      </a>
+
+      <a href="blog_post/blog_post.html#plug" class="nav-button plug-pin">
+        <img src="img/plugpin.png" alt="Plug Seven Records">
+      </a>
+
+      <a href="blog_post/blog_post.html#happy" class="nav-button happy-pin">
+        <img src="img/happypin.png" alt="Happy Valley Records">
+      </a>
+
+      <a href="blog_post/blog_post.html#sound" class="nav-button sound-pin">
+        <img src="img/soundpin.png" alt="Soundmerch">
+      </a>
+
+      <a href="blog_post/blog_post.html#rathe" class="nav-button rathe-pin">
+        <img src="img/rathepin.png" alt="Rathdowne Records">
+      </a>
+
+      <!-- Title -->
+      <div class="top">
+        <h1>A Tourist's Guide <br> To Melbourne <br> Record Stores</h1>
+      </div>
+  </div>
+
+  <!-- Bottom Content -->
+  <div class="bottom">
     <h4>
-        I have always been passionate about playing vinyl records. There is something incredibly satisfying about placing a record on the turntable, dropping the needle, and immersing myself in the sound. Over the years, this has become more than just a way to listen to music, it has a full-fledged hobby. One of my favorite aspects of collecting vinyl is exploring record stores, each with its own unique selection and atmosphere.<br><br>
+      I have always been passionate about playing vinyl records. There is something incredibly satisfying about placing a record on the turntable, dropping the needle, and immersing myself in the sound. Over the years, this has become more than just a way to listen to music, it has a full-fledged hobby. One of my favorite aspects of collecting vinyl is exploring record stores, each with its own unique selection and atmosphere.<br><br>
 
-        On a recent trip to Melbourne, I couldn't resist checking out some record stores and comparing them. Since Melbourne is a large city with a thriving music culture, I focused on two areas known for their eclectic music scenes: Fitzroy and Collingwood. Both neighborhoods have a grungy, artistic vibe and are home to some of the best independent record stores in the city. At each store, I assessed key factors: the variety of music available, pricing (a big one, since vinyl is getting pricey), the quality of merchandise, and finally the overall vibe as store ambience played a big role in my experience. A well-curated, inviting space makes me want to stay longer and truly explore. Some stores had a diverse selection across genres, while others specialized in niche collections. Price points varied, with some offering affordable second-hand finds and others focusing on high-end releases.<br><br>
+      On a recent trip to Melbourne, I couldn't resist checking out some record stores and comparing them. Since Melbourne is a large city with a thriving music culture, I focused on two areas known for their eclectic music scenes: Fitzroy and Collingwood. Both neighborhoods have a grungy, artistic vibe and are home to some of the best independent record stores in the city. At each store, I assessed key factors: the variety of music available, pricing (a big one, since vinyl is getting pricey), the quality of merchandise, and finally the overall vibe as store ambience played a big role in my experience. A well-curated, inviting space makes me want to stay longer and truly explore. Some stores had a diverse selection across genres, while others specialized in niche collections. Price points varied, with some offering affordable second-hand finds and others focusing on high-end releases.<br><br>
 
-        Melbourne is such a vibrant, artistic city, making it a perfect spot for record collectors. If you're ever in town, I highly recommend checking out some of the stores I visited. There are so many options, so I hope my reviews help narrow down the best spots.
+      Melbourne is such a vibrant, artistic city, making it a perfect spot for record collectors. If you're ever in town, I highly recommend checking out some of the stores I visited. There are so many options, so I hope my reviews help narrow down the best spots.
     </h4>
-</div>
-<footer> 
+  </div>
+
+  <!-- Footer -->
+  <footer>
     Play old-school....listen better ----→  play old-school....listen better ----→  play old-school....listen better ----→  play old-school....listen better ----→ Play old-school....listen 
-</footer>
+  </footer>
+
+  <!-- Floating GIF: positioned at bottom right of page -->
+  <div class="gif">
+    <img src="img/finalrecord.gif" alt="Spinning record">
+  </div>
 </body>
 
-
 </html>
-
