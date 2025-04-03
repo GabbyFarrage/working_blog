@@ -44,26 +44,23 @@ section {
   margin: 0px;
 }
 
-/* NORTHSIDE */
-.northside{
+.northside_content {
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
 }
 
-.northside_text {
-  font-family: 'Instrument Sans', sans-serif;
-  font-weight: 500;         /* Slightly less bold */
-  font-size: 18px;
-  line-height: 1.4;
-  text-align: left;
-  width: 60%;
-  padding-left: 5px;       /* Minimal left padding */
-  padding-top: 40px;        /* More space above */
-  margin-left: 0;
-  color: #111;
+/* NORTHSIDE */
+/* NORTHSIDE */
+.northside_content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
 }
-
-
-
 
 #northside {
   display: flex;
@@ -72,6 +69,48 @@ section {
   background-color: #EFE4E1;
   height: 100vh; 
 }
+
+.northside_header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  font-family: 'League Gothic', sans-serif;
+  color: #C03C3A;
+  padding: 20px;
+  width: 10%;
+  z-index: 2;
+}
+
+.northside_header h1 {
+  font-size: 60px;
+  margin: 0;
+}
+
+.northside_header h3 {
+  font-family: 'Instrument Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #111;
+  margin-top: 20px;
+  transform: rotate(180deg);
+}
+
+.northside_text {
+  font-family: 'Instrument Sans', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.4;
+  text-align: left;
+  width: 60%;
+  padding-left: 0px;
+  padding-top: 40px;
+  margin-left: 0;
+  color: #111;
+}
+
 .northside_img {
   position: absolute;
   top: 0;
@@ -81,6 +120,7 @@ section {
   overflow: hidden;
   z-index: 1;
 }
+
 .northside_img img {
   padding-top: 60px;
   width: 100%;
@@ -88,6 +128,7 @@ section {
   object-fit: cover;
   display: block;
 }
+
 
 /* SEARCHERS */
 #searchers {
