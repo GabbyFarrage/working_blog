@@ -12,7 +12,7 @@ body, html {
 }
 
 
-.pins {
+.pins_background {
   position: relative;
   width: 100%;
   height: 120vh;
@@ -27,14 +27,15 @@ body, html {
 .top {
   width: 100%;
   background-color: #EBC402; /* your highlight color */
+  padding: 40px 0;
   text-align: center;
  
 }
 
 .top h1 {
   font-family: "allotropic", sans-serif;
-  font-weight: 700;
-  font-style: normal;
+font-weight: 700;
+font-style: normal;
   color:white; /* change to dark text for contrast */
   font-size: 100px;
   font-weight: 400;
