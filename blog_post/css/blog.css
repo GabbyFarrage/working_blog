@@ -18,12 +18,12 @@ header {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  padding: 0 15px; /* increase this to push icons outward */
+  padding: 0 15px; 
 }
 
 
 .nav_icon {
-  width: 90px; /* adjust size as needed */
+  width: 100px; 
   height: auto;
 }
 
@@ -35,7 +35,7 @@ nav {
 nav a {
   font-family: 'Inter', sans-serif;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 18px;
   color: #242424;
   text-decoration: none;
   transition: color 0.3s ease;

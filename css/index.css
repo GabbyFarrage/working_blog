@@ -44,8 +44,6 @@ body, html {
   margin: 0 auto;
 }
 
-
-
 .nav-button {
   position: absolute;
   display: inline-block;
@@ -134,17 +132,48 @@ body, html {
   text-align: center;
 }
 
-
 footer {
+  background-color: #242424;
+  height: 60px;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 20px;
+}
+
+.crawl_wrapper {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  width: 100%;
   font-family: 'Inter', sans-serif;
   font-weight: 700;
-  height: 60px;
-  text-align: center;
   color: #EBC402;
-  background-color: #242424;
-  padding-top: 20px;
-  width: 100%;
 }
+
+.crawl_track {
+  display: inline-block;
+  animation: scroll-right 25s linear infinite;
+  font-size: 16px;
+}
+
+.crawl_track span {
+  display: inline-block;
+  padding-right: 50px;
+}
+
+@keyframes scroll-right {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+
+
+
+
 
 
 
