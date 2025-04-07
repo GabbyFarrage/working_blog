@@ -1,3 +1,4 @@
+/* HEADER & NAVIGATION WITH ICONS */
 header {
   position: fixed;
   top: 0;
@@ -12,9 +13,23 @@ header {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+.nav_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 15px; /* increase this to push icons outward */
+}
+
+
+.nav_icon {
+  width: 90px; /* adjust size as needed */
+  height: auto;
+}
+
 nav {
   display: flex;
-  gap: 24px;
+  gap: 70px;
 }
 
 nav a {
@@ -30,34 +45,18 @@ nav a:hover {
   color: #ea3235;
 }
 
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-
-
-section {
-  width: 100%;
-  height: 100vh;
-  margin: 0px;
-}
-
-
-.northside_content {
-  align-items: center;
-  justify-content: space-between;
-  height: 100vh;
-  position: relative;
-}
-
-
 /* NORTHSIDE */
 .northside_content {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   height: 100vh;
 }
@@ -65,22 +64,44 @@ section {
 #northside {
   display: flex;
   position: relative;
-  padding-top: 2px;
-  background-color: #e8d8d4;
+  padding-top: 60px;
+  background-color: #f9f5e1;
   height: 100vh; 
 }
 
 .northside_text {
   font-family: 'Instrument Sans', sans-serif;
-  font-weight: 500;
-  font-size: 18px;
+  font-weight: 600;
+  font-size: 17px;
   line-height: 1.4;
   text-align: left;
   width: 49%;
   padding-left: 30px;
-  padding-top: 10%;
-  margin-top: -300px;
+  padding-top: 20px;
   color: #111;
+}
+
+.northside_rating {
+  margin-top: 5px;
+  text-align: left;
+}
+
+.northside_rating img {
+  width: 400px;
+  height: auto;
+  display: block;
+  margin-left: 150px;
+  margin-top: -5px;
+  animation: rock 2s ease-in-out infinite;
+  transform-origin: center center;
+}
+
+@keyframes rock {
+  0%   { transform: rotate(0deg); }
+  25%  { transform: rotate(5deg); }
+  50%  { transform: rotate(0deg); }
+  75%  { transform: rotate(-5deg); }
+  100% { transform: rotate(0deg); }
 }
 
 .northside_img {
@@ -88,14 +109,13 @@ section {
   top: 0;
   right: 0;
   width: 50%;
-  height: 100%; 
+  height: 100%;
   overflow: hidden;
   z-index: 1;
-  
 }
 
 .northside_img img {
-  padding-top: 35px;
+  padding-top: 50px;
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -121,17 +141,32 @@ section {
 
 .searchers_text {
   width: 55%;
-  margin-left: 580px; 
-  margin-top: 50px;
+  margin-left: 600px; 
+  margin-top: 130px;
   text-align: left;
   font-family: 'Instrument Sans', sans-serif;
-  font-weight: 500;
-  font-size: 18px;
+  font-weight: 600;
+  font-size: 17px;
   line-height: 1.4;
   color: #111;
   position: relative;
-  z-index: 2;
 }
+
+.searchers_rating {
+  margin-top: 5px;
+  text-align: left;
+}
+
+.searchers_rating img {
+  width: 800px;
+  height: auto;
+  display: block;
+  margin-left: 150px;
+  margin-top: -50px;
+  animation: rock 2s ease-in-out infinite;
+  transform-origin: center center;
+}
+
 
 .searchers_img {
   position: absolute;
@@ -176,7 +211,7 @@ section {
   text-align: left;
   width: 55%;
   padding-left: 30px;
-  padding-top: 2%;
+  padding-top: 50px;
   position: relative;
   margin-top: -300px;
   color: #111;
@@ -203,7 +238,7 @@ section {
   display: flex;
   position: relative;
   height: 100vh;
-  background-color: #EFE4E1;
+  background-color: #ede8d0;
 }
 
 .happy_content {
