@@ -12,7 +12,11 @@ body, html {
 
 .top {
   width: 100%;
-  background-color: rgba(235, 196, 2, 0.85); /* same yellow, 85% opacity */
+  background-image: url('../img/background_texture.png'); /* or your actual file path */
+  background-size: cover;         /* makes it fill the full area */
+  background-position: center;    /* keeps it centered */
+  background-repeat: no-repeat;   /* prevents tiling */
+
   text-align: center;
   padding: 40px 0;
   z-index: 10;
