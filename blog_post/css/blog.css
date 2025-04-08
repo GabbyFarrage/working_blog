@@ -142,8 +142,8 @@ nav a:hover {
 
 .searchers_text {
   width: 55%;
-  margin-left: 600px; 
-  margin-top: 130px;
+  margin-left: 580px; 
+  margin-top: 200px;
   text-align: left;
   font-family: 'Instrument Sans', sans-serif;
   font-weight: 600;
@@ -154,15 +154,15 @@ nav a:hover {
 }
 
 .searchers_rating {
-  margin-top: 5px;
+  margin-top: 35px;
   text-align: left;
 }
 
 .searchers_rating img {
-  width: 800px;
+  width: 500px;
   height: auto;
   display: block;
-  margin-left: 150px;
+  margin-left: 100px;
   margin-top: -50px;
   animation: rock 2s ease-in-out infinite;
   transform-origin: center center;
@@ -173,7 +173,7 @@ nav a:hover {
   position: absolute;
   top: 0;
   left: 0;
-  width: 80%; /* image takes up the left half */
+  width: 80%; 
   height: 100%;
   overflow: hidden;
   z-index: 1;
@@ -198,6 +198,7 @@ nav a:hover {
 
 .plug_content {
   display: flex;
+  position: relative;
   align-items: center;
   justify-content: space-between;
   height: 100vh;
@@ -206,17 +207,33 @@ nav a:hover {
 
 .plug_text {
   font-family: 'Instrument Sans', sans-serif;
-  font-weight: 500;
-  font-size: 18px;
+  font-weight: 600;
+  font-size: 17px;
   line-height: 1.4;
   text-align: left;
   width: 55%;
   padding-left: 30px;
-  padding-top: 50px;
+  padding-top: 300px;
   position: relative;
   margin-top: -300px;
   color: #111;
+  position: relative;
 }
+
+.plug_rating {
+  position: absolute;
+  top: 60px;      /* adjust this to move it vertically */
+  left: 150px;    /* same as before */
+  z-index: 2;     /* keeps it above background or text if needed */
+}
+
+.plug_rating img {
+  width: 400px;
+  height: auto;
+  animation: rock 2s ease-in-out infinite;
+  transform-origin: center center;
+}
+
 
 .plug_img {
   position: absolute;
@@ -257,7 +274,7 @@ nav a:hover {
   text-align: left;
   font-family: 'Instrument Sans', sans-serif;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 17px;
   line-height: 1.4;
   color: #111;
   position: relative;
